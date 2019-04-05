@@ -1,5 +1,10 @@
 /*Global Attributes*/
 
+body {
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+}
+
 body,
 h1,
 a,
@@ -24,6 +29,16 @@ ul {
 }
 
 /*Main Styles*/
+
+h1 {
+  background-color: 	rgb(88,88,88);
+  position: absolute;
+  top: 200px;
+  width: 26%;
+  right: 37%;
+  left: 37%;
+  text-align: center;
+}
 
 .nav {
     display: flex;
@@ -64,4 +79,55 @@ ul {
 .button .topic {
     height: 40px;
     line-height: 40px;
+}
+
+.featured-articles-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.article-container {
+  background-color: rgb(120,120,120);
+  height: 745px;
+}
+
+.small {
+  height: 630px;
+}
+
+.article-container:first-of-type {
+  background-color: rgb(112,112,112);
+}
+
+.featured-article {
+  margin: 30% auto;
+  height: 40%;
+  text-align: left;
+  width: 65%;
+
+}
+
+.author {
+  background-color: rgb(192,192,192);
+  margin-bottom: 40px;
+  height: 35px;
+  width: 70%;
+}
+
+.article-content {
+  background-color: rgb(80,80,80);
+  margin-bottom: 35px;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 43px;
+}
+
+.article-list {
+  display: flex;
+}
+
+.article-list li {
+  background-color: rgb(192,192,192);
+  font-size: 1.2rem;
+  margin-right: 35px;
 }
