@@ -1,0 +1,67 @@
+/*Global Attributes*/
+
+body,
+h1,
+a,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ul,
+div,
+article,
+header,
+section,
+main {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*Main Styles*/
+
+.nav {
+    display: flex;
+    height: 8rem;
+    background-color: rgb(152, 152, 152);
+}
+
+.nav-list a,
+.topic {
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    width: 13%;
+    margin: auto 10px;
+    height: 90%;
+    box-sizing: border-box;
+    background-color: rgb(168, 168, 168);
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list li {
+    margin: auto 20px;
+}
+
+.button {
+    width: 8%;
+    margin: auto 10px;
+    height: 40%;
+    box-sizing: border-box;
+    background-color: rgb(168, 168, 168);
+    text-align: center;
+}
+
+.button .topic {
+    height: 40px;
+    line-height: 40px;
+}
