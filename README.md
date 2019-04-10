@@ -1,7 +1,7 @@
 # PROJECT: DESIGN TEARDOWN
 
 This is the fifth project of the Main HTML/CSS curriculum at [Microverse](https://www.microverse.org/) - @microverseinc
-* The is to create a grayscale heat map of the [website](http://smashingmagazine.com/) that indicates which elements have the greatest weight in the visual hierarchy 
+* The objective is to create a grayscale heat map of the [website](http://smashingmagazine.com/) that indicates which elements have the greatest weight in the visual hierarchy 
 * The project was completed using html and css 
 
 #### [Assignment link](https://www.theodinproject.com/courses/html5-and-css3/lessons/design-teardown)
